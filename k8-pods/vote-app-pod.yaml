@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: vote-app-pod
+  labels:
+    name: vote-app-pod
+    app: voting-app
+spec:
+  containers:
+    - name: vote-app
+      image: sanket01/voting-app-vote-app
+      ports:
+        - containerPort: 80
