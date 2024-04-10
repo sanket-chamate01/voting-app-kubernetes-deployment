@@ -5,7 +5,7 @@ services:
   sut:
     build: ./tests/
     depends_on:
-      - vote
+      - vote 
       - result
       - worker
     networks:
