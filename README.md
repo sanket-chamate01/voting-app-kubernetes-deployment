@@ -6,7 +6,7 @@ This voting app is designed with a microservices architecture, utilizing Docker 
 
 ## Using Docker --link
 Before running the application, make sure you have Docker installed on your system.
-
+ 
 ### Running Redis Container
 ```bash
 docker run -d --name=redis redis
