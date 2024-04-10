@@ -1,6 +1,6 @@
 FROM microsoft/dotnet:2.0.0-sdk
 
-WORKDIR /code
+WORKDIR /code 
 
 ADD src/Worker /code/src/Worker
 
