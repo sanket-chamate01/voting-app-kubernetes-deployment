@@ -1,6 +1,6 @@
 # Voting App Deployment
 
-This voting app is designed with a microservices architecture, utilizing Docker containers and Kubernetes for easy deployment and scalability. The application consists of three main components: `vote-app` (Python), `result-app` (Node.js), and `worker-app` (C#), connected through Redis and PostgreSQL databases.
+This voting app is designed with a microservices architecture, utilizing Docker containers and Kubernetes for easy deployment and scalability. The application consists of three main components: `vote-app` (Python), `result-app` (Node.js), and `worker-app` (C# using .NET framework), connected through Redis and PostgreSQL databases.
 
 ![Image of Voting App Architecture](architecture.png)
 
