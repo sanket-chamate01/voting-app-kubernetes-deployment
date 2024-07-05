@@ -18,19 +18,16 @@ docker run -d --name=db -e POSTGRES_HOST_AUTH_METHOD=trust postgres:9.4
 ```
 
 ### Running Vote App Container
-This is not a secured approach, use username and password instead
 ```bash
 docker run -d --name=vote -p 5000:80 --link redis:redis sanket01/voting-app-vote-app
 ```
 
 ### Running Result App Container
-This is not a secured approach, use username and password instead
 ```bash
 docker run -d --name=result -p 5001:80 --link db:db sanket01/voting-app-result-app
 ```
 
 ### Running Worker App Container
-This is not a secured approach, use username and password instead
 ```bash
 docker run -d --name=worker --link db:db --link redis:redis sanket01/voting-app-worker-app
 ```
